@@ -4,9 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSK- Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    RSK- Music Player
+    <main class="bg-dark">
+        <nav>
+            <h1><span style="color: #a19f9f;">Hello,</span> <span id="name">Rishi</span> ✨</h1>
+            <div class="nav-part-2">
+                <div class="notify">
+                    <i class="fa-regular fa-bell"></i>
+                    <div class="dark-white-mode">
+                        <i class="fa-solid  fa-sun"></i>
+                        <i class="fa-solid hidden fa-moon"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="page-1">
+            <h2>Select Categories</h2>
+
+            <!-- //this would be added from js -->
+            <div class="categories">
+                <a href="">All</a>
+                <a href="">Party</a>
+                <a href="">Blues</a>
+                <a href="">Sad</a>
+                <a href="">Hip Hop</a>
+                <a href="">Romantic</a>
+                <a href="">Motivational</a>
+            </div>
+            <div class="popular-section">
+                <div class="popular-section-part-1">
+                    <h3>Popular Songs</h3>
+                    <a href="">See All</a>
+                </div>
+                <div class="popular-section-part-2-card-load">
+                     <!-- //this would be added from js -->
+                    <div class="card-parent">
+                        <div class="card">
+                            <img src="" alt="">
+                            <div class="card-part-2">
+                                <h3 class="music-name">Song name</h3>
+                                <p class="singer-name">KK</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-parent">
+                        <div class="card">
+                            <img src="" alt="">
+                            <div class="card-part-2">
+                                <h3 class="music-name">Song name</h3>
+                                <p class="singer-name">KK</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            <div>
+
+            <div class="new-collection">
+                <h3>New Collection</h3>
+                <div class="new-collection-part-2">
+                    <div class="card">
+                        <div class="card-left">
+                            <h2>TOP SONGS GLOBAL</h2>
+                            <p>Discover 85 Songs</p>
+                            
+                            <div class="line"></div>
+                            <p>⟶</p>
+    
+                        </div>
+                        <div class="card-right">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-left">
+                            <h2>TOP SONGS GLOBAL</h2>
+                            <p>Discover 85 Songs</p>
+                            
+                            <div class="line"></div>
+                            <p>⟶</p>
+    
+                        </div>
+                        <div class="card-right">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </section>
+
+        <div class="fixed">
+            <div class="home bt-icon">
+                <a href="">
+                    <i class="fas fa-home"></i>
+                    <div class="hidden ">Home</div>
+                </a>
+            </div>
+            <div class="search bt-icon">
+                <a href="">
+                    <i class="fas fa-search"></i>
+                    <div class="hidden bt-icon">Search</div>
+                </a>
+            </div>
+            <div class="Your-Library">
+                <a href="">
+                    <i class="fas fa-music"></i> 
+                    <div class="hidden bt-icon">Your Library</div>
+                </a>
+            </div>
+            <div class="Account">
+                <a href="">
+                    <i class="fas fa-user"></i>
+                    <div class="hidden bt-icon">Account</div>
+                </a>
+            </div>
+            <div></div>
+        </div>
+
+    </main>
+
+
+
+
+
 
     <script src="script.js"></script>
 </body>
